@@ -11,7 +11,7 @@ body {
   height: 100%;
 }
 
-body {
+.newContainer {
   display: flex;
 }
 
@@ -152,6 +152,7 @@ main {
   display: flex;
   width: 100%;
   align-items: center;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
   padding: 30px;
   gap: 20px;
